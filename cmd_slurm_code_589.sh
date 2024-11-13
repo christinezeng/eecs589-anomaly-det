@@ -6,7 +6,7 @@
 
 #SBATCH --job-name=cse589_week_1
 #SBATCH --mail-type=BEGIN,END
-#SBATCH --mail-user=cczeng@umich.edu
+#SBATCH --mail-user=mitchang@umich.edu
 #SBATCH --gpus-per-node=1
 #SBATCH --gpus=1
 #SBATCH --gpus-per-task=1
@@ -22,4 +22,7 @@
 
 module load python3.11-anaconda/2024.02
 module load gcc/14.1.0/
+pip install --upgrade pip
+pip install torch
+pip install torch-geometric
 python anomaly_det.py

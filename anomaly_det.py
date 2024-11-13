@@ -17,7 +17,8 @@ from torch import nn
 import torch
 torch.manual_seed(0)
 
-df = pd.read_csv("CIDDS-001/traffic/OpenStack/CIDDS-001-internal-week1.csv")
+df = pd.read_csv("CIDDS-001-internal-week1.csv")
+print("Read CSV")
 df = df.drop(columns=['Src Pt', 'Dst Pt', 'Flows', 'Tos', 'class', 'attackID', 'attackDescription'])
 df['attackType'] = df['attackType'].replace('---', 'benign')
 df['Date first seen'] = pd.to_datetime(df['Date first seen'])

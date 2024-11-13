@@ -1,0 +1,87 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /home/mitchang/.local/lib/python3.11/site-packages (24.3.1)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torch in /home/mitchang/.local/lib/python3.11/site-packages (2.5.1)
+Requirement already satisfied: filelock in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch) (3.13.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch) (4.9.0)
+Requirement already satisfied: networkx in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch) (3.1)
+Requirement already satisfied: jinja2 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch) (3.1.3)
+Requirement already satisfied: fsspec in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch) (2023.10.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.127)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.127)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.127)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.5.8)
+Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (11.2.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (10.3.5.147)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (11.6.1.9)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.3.1.170)
+Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.127)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (12.4.127)
+Requirement already satisfied: triton==3.1.0 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (3.1.0)
+Requirement already satisfied: sympy==1.13.1 in /home/mitchang/.local/lib/python3.11/site-packages (from torch) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from sympy==1.13.1->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from jinja2->torch) (2.1.3)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torch-geometric in /home/mitchang/.local/lib/python3.11/site-packages (2.6.1)
+Requirement already satisfied: aiohttp in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (3.9.3)
+Requirement already satisfied: fsspec in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (2023.10.0)
+Requirement already satisfied: jinja2 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (3.1.3)
+Requirement already satisfied: numpy in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (1.26.4)
+Requirement already satisfied: psutil>=5.8.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (5.9.0)
+Requirement already satisfied: pyparsing in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (3.0.9)
+Requirement already satisfied: requests in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (2.31.0)
+Requirement already satisfied: tqdm in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from torch-geometric) (4.65.0)
+Requirement already satisfied: aiosignal>=1.1.2 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from aiohttp->torch-geometric) (1.2.0)
+Requirement already satisfied: attrs>=17.3.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from aiohttp->torch-geometric) (23.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from aiohttp->torch-geometric) (1.4.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from aiohttp->torch-geometric) (6.0.4)
+Requirement already satisfied: yarl<2.0,>=1.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from aiohttp->torch-geometric) (1.9.3)
+Requirement already satisfied: MarkupSafe>=2.0 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from jinja2->torch-geometric) (2.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from requests->torch-geometric) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from requests->torch-geometric) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from requests->torch-geometric) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages (from requests->torch-geometric) (2024.2.2)
+/home/mitchang/eecs589-anomaly-det/few_shot.py:20: DtypeWarning: Columns (8) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("CIDDS-001-internal-week1.csv")
+/home/mitchang/eecs589-anomaly-det/few_shot.py:79: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Bytes'].loc[m_index] = df['Bytes'].loc[m_index].apply(lambda x: 10e6 * float(x.strip().split()[0]))
+/sw/pkgs/arc/python3.11-anaconda/2024.02-1/lib/python3.11/site-packages/pandas/core/dtypes/cast.py:375: RuntimeWarning: invalid value encountered in cast
+  new_result = trans(result).astype(dtype)
+/home/mitchang/eecs589-anomaly-det/few_shot.py:116: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  return torch.Tensor([src, dst]).int(), torch.Tensor([dst, src]).int()
+Read CSV
+attackType
+benign        82.954273
+dos           14.815406
+portScan       2.171337
+pingScan       0.039744
+bruteForce     0.019239
+Name: count, dtype: float64
+Epoch 0 | Loss: 1.6163 | Val loss: 1.5837 | Val F1-score: 0.0774
+Epoch 10 | Loss: 1.4641 | Val loss: 1.5751 | Val F1-score: 0.0683
+Epoch 20 | Loss: 1.1740 | Val loss: 1.4774 | Val F1-score: 0.1226
+Epoch 30 | Loss: 0.6896 | Val loss: 1.1883 | Val F1-score: 0.2731
+Epoch 40 | Loss: 0.2456 | Val loss: 0.9597 | Val F1-score: 0.2578
+Epoch 50 | Loss: 0.0724 | Val loss: 1.0170 | Val F1-score: 0.2651
+Epoch 60 | Loss: 0.0197 | Val loss: 1.2065 | Val F1-score: 0.2699
+Epoch 70 | Loss: 0.0060 | Val loss: 1.3588 | Val F1-score: 0.2835
+Epoch 80 | Loss: 0.0026 | Val loss: 1.4686 | Val F1-score: 0.2999
+Epoch 90 | Loss: 0.0016 | Val loss: 1.5545 | Val F1-score: 0.2998
+Epoch 100 | Loss: 0.0011 | Val loss: 1.5927 | Val F1-score: 0.3018
+              precision    recall  f1-score   support
+
+      benign     0.9989    0.4746    0.6434   3505436
+  bruteForce     0.0002    0.0738    0.0004       813
+         dos     0.4808    1.0000    0.6494    626064
+    pingScan     0.4761    0.2793    0.3521      1679
+    portScan     0.0915    0.9674    0.1672     91756
+
+    accuracy                         0.5630   4225748
+   macro avg     0.4095    0.5590    0.3625   4225748
+weighted avg     0.9020    0.5630    0.6337   4225748
+
