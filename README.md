@@ -29,7 +29,7 @@ our code currently trains on a subset of 5 examples for each anomaly class
 ## semisupervised
 run HetereoGNN on a proportional subset of the CIDDS-001 dataset, applies weighted loss function to increase testing classification accuracy on minority classes
 1. download the CIDDS-001 dataset [here](https://www.hs-coburg.de/forschen/cidds-coburg-intrusion-detection-data-sets/)
-2. change `#SBATCH --mail-user=cczeng@umich.edu` in `cmd_slurm_code_589.sh` to corresponding uniqname
+2. change `#SBATCH --mail-user=cczeng@umich.edu` in each `sh` to corresponding uniqname
 
 ### 4128 samples of CIDDS-001 dataset
 * with weighted loss: run `CIDDS_weights_4128.sh` on GreatLakes
