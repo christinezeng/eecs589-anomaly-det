@@ -40,7 +40,7 @@ run HetereoGNN on a proportional subset of the CIDDS-001 dataset, applies weight
 * without weighted loss: run `CIDDS_no_weights_2064.sh` on GreatLakes
 
 ## smote
-run HetereoGNN on a equal subset on the CIDDS-001 dataset\
+run HetereoGNN on a equal subset on the CIDDS-001 dataset, applies SMOTE to increase testing classification accuracy on minority classes\
 our code currently trains on a subset of 10 examples with Synthetic Minority Oversampling Technique (SMOTE) for each anomaly class 
 1. download the CIDDS-001 dataset [here](https://www.hs-coburg.de/forschen/cidds-coburg-intrusion-detection-data-sets/)
 2. change `#SBATCH --mail-user=mitchang@umich.edu` in `smote.sh` to corresponding uniqname
