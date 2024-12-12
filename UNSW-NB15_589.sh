@@ -4,7 +4,7 @@
 #“#SBATCH” directives that convey submission options:
 
 
-#SBATCH --job-name=cse589_UNSW-NB15
+#SBATCH --job-name=UNSW-NB15
 #SBATCH --mail-type=BEGIN,END
 #SBATCH --mail-user=cczeng@umich.edu
 #SBATCH --gpus-per-node=1
@@ -15,7 +15,7 @@
 #SBATCH --time=1:00:00
 #SBATCH --account=cse589s011f24_class
 #SBATCH --partition=spgpu
-#SBATCH --output=./cmd_anomaly_det_UNSW-NB15.log
+#SBATCH --output=./UNSW-NB15.log
 
 
 # The application(s) to execute along with its input arguments and options:
