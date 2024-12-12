@@ -45,3 +45,21 @@ our code currently trains on a subset of 10 examples with Synthetic Minority Ove
 1. download the CIDDS-001 dataset [here](https://www.hs-coburg.de/forschen/cidds-coburg-intrusion-detection-data-sets/)
 2. change `#SBATCH --mail-user=mitchang@umich.edu` in `smote.sh` to corresponding uniqname
 3. run `smote.sh` on GreatLakes
+
+## package dependencies
+```
+# Data manipulation and visualization
+pip3 install numpy pandas matplotlib
+
+# Machine learning
+pip3 install scikit-learn
+
+# PyTorch (with CUDA support)
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch Geometric
+pip3 install torch-geometric
+
+# Additional PyTorch Geometric dependencies
+pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+```
