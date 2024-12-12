@@ -19,7 +19,7 @@ torch.manual_seed(0)
 
 # use extractdata.py to create unbalanced dataset
 # read in randomly selected unbalanced dataset
-df = pd.read_csv("samples_all_new.csv")
+df = pd.read_csv("samples_all_CIDDS_2064.csv")
 df = df.drop(columns=['Src Pt', 'Dst Pt', 'Flows', 'Tos', 'class', 'attackID', 'attackDescription'])
 df['attackType'] = df['attackType'].replace('---', 'benign')
 df['Date first seen'] = pd.to_datetime(df['Date first seen'])
